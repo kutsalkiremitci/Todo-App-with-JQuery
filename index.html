@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="@kutsalkiremitci">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo APP with JQUERY</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <!-- JQuery -->
+    <script src="./public/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="text-center text-light">   
+                <div class="h3 pt-3">Todo APP with JQUERY</div>
+                <span>Created by <a href="https://www.github.com/kutsalkiremitci" target="_blank">@kutsalkiremitci</a></span>
+            </div>
+            <div>
+                Todos Object: <code class="objectPreview">[]</code>
+            </div>
+            <hr />
+            <div class="d-flex gap-1 mb-2">
+                <input type="text" class="form-control" placeholder="TODO" name="todo">
+                <button class="btn btn-success addTodo">Add</button>
+                <button class="btn btn-info resetTodo text-light">Reset</button>
+            </div>
+            
+            <div class="todos"></div>
+        </div>
+    </main>
+    <!-- Core Scripts -->
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
